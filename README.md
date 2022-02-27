@@ -1,7 +1,7 @@
-# GitHubやること
+# まずやること
 ## cloneをする
 ```diff
-$ git clone https://github.com/nyaruo/CODEGYMACademy_team1.git
+git clone https://github.com/nyaruo/CODEGYMACademy_team1.git
 ```
 
 # 今後の予定
