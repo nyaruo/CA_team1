@@ -6,7 +6,7 @@ git clone https://github.com/nyaruo/CA_team1.git
 cd CA_team1
 ```
 ```diff
-cd npm ci
+npm ci
 ```
 
 ### アプリの起動
