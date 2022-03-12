@@ -62,3 +62,7 @@ main {
   height: 100%;
   width: 100%;
 }
+
+.mainText {
+  margin-top: 10%;
+}
