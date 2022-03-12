@@ -31,15 +31,34 @@ header {
   margin: 5%;
 }
 
-.user-Icon {
+.header-Nav li a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.header-right {
+  display: flex;
+  margin-left: auto;
+}
+
+.user-Icon, .sign-Up {
   display: flex;
   align-items: center;
-  margin-left: auto;
+}
+
+.sign-Up p {
+  margin: -40%;
+}
+
+.sign-Up a {
+  text-decoration: none;
+  color: #252525;
 }
 
 /* ーーー */
 
 main {
   position: absolute;
-  top: 10%;
+  height: 100%;
+  width: 100%;
 }
