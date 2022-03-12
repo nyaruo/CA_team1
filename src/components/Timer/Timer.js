@@ -7,7 +7,7 @@ function MyStopwatch() {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <h1>react-timer-hook</h1>
+      <h1>Python Learning</h1>
       <div style={{ fontSize: "100px" }}>
         <span>{days}</span>:<span>{hours}</span>:<span>{minutes}</span>:
         <span>{seconds}</span>
@@ -20,44 +20,12 @@ function MyStopwatch() {
   );
 }
 
-function TasksToDo() {
-  return (
-    <div>
-      <p>Tasks to do</p>
-    </div>
-  );
-}
-
-function TasksCompleted() {
-  return (
-    <div>
-      <p>Tasks completed this week</p>
-    </div>
-  );
-}
-
-function YourTasks() {
-  return (
-    <div>
-      <p>Your projects & Tasks</p>
-    </div>
-  );
-}
 
 export default function Timer() {
   return (
     <>
       <div>
-        <TasksToDo />
-      </div>
-      <div>
-        <TasksCompleted />
-      </div>
-      <div>
         <MyStopwatch />
-      </div>
-      <div>
-        <YourTasks />
       </div>
     </>
   );
