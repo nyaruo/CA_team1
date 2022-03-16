@@ -1,4 +1,4 @@
-import { callStaticConstructors } from "igniteui-react-core";
+// import { callStaticConstructors } from "igniteui-react-core";
 import React from "react";
 import { useStopwatch } from "react-timer-hook";
 
