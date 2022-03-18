@@ -1,5 +1,8 @@
 export const userData = [
 	{
+		name: ""
+	},
+	{
 		name: "Mon",
 		"Active User": 4000,
 	},
