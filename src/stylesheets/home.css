@@ -1,10 +1,15 @@
+div.container-fluid {
+  width: 82%;
+  margin-left: 18%;
+}
+
 .data {
   margin: 10px 0 0 180px;
   height: 800px;
 }
 
 .date {
-  margin: 80px 0 0 40px;
+  /* margin: 80px 0 0 40px;
   font-size: x-large;
-  font-weight: bold;
+  font-weight: bold; */
 }

@@ -19,8 +19,8 @@ function Home() {
   return (
     <>
       <Header />
-      <div class="date">{month}月{date}日（{weekday[day]}）</div>
       <Container fluid>
+        <div class="date">{month}月{date}日（{weekday[day]}）</div>
         <Grid container spacing={1}>
           <Grid item md={5}>
             <Gauge
