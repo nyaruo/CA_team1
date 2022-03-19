@@ -1,3 +1,4 @@
+import React from 'react';
 import ReactApexChart from "react-apexcharts";
 // material
 import { useTheme, styled } from "@mui/material/styles";

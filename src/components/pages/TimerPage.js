@@ -8,10 +8,12 @@ class Timer extends React.Component {
     return (
       <>
         <Header />
-        <div className="TimerPage">
-          <h1 className="Timer">LEARNING TIMER</h1>
-          <MyStopwatch />
-        </div>
+        <div className="RecordPage">
+			<section>
+ 				<h1 className='Timer'>LEARNING TIMER</h1>
+ 				<MyStopwatch />
+			</section>
+ 		</div>
       </>
     );
   }
