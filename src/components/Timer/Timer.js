@@ -43,7 +43,6 @@ function MyStopwatch() {
           </select>
           <span className="cp_sl06_highlight"></span>
           <span className="cp_sl06_selectbar"></span>
-          {/* <label class="cp_sl06_selectlabel">Choose</label> */}
         </div>
       </div>
 
