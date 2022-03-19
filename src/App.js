@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Header from './components/modules/Header';
 import Home from './components/pages/Home';
 import Timer from './components/pages/TimerPage';
 import Menu2 from './components/pages/Menu2';
@@ -15,7 +14,6 @@ function App() {
   return (
     <div className="App">
         <Router>
-          <Header />
           <main>
             <Route exact path="/" component={Home} />
             <Route path="/timer" component={Timer} />
