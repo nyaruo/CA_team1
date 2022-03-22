@@ -1,32 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import projectIcon from '../../icons/projectIcon.png';
+import logoutImage from '../../icons/logout.png';
 
 class Header extends React.Component{
 	render(){
 		return(
 			<header className="header">
 				<div className="header-Name">
+					<img src={ projectIcon } />
 					<h1>StudyPro</h1>
 				</div>
 				<div className="header-Nav">
 					<ul>
 						<li>
-							<Link to="/">HOME</Link>
+							<Link to="/">Home</Link>
 						</li>
 						<li>
-							<Link to="/timer">TIMER</Link>
+							<Link to="/timer">Timer</Link>
 						</li>
 						<li>
-							<Link to="/menu2">MENU2</Link>
+							<Link to="/menu2">Sign out</Link>
 						</li>
 					</ul>
 				</div>
-				<div className='header-right'>
-					<div className="sign-Up">
-						<Link to="/signup">SignUp</Link>
-					</div>
-					<div className="user-Icon">
-						<p>アイコン</p>
+				<div className='header-bottom'>
+					<div className='user-icon'>
+						<p>ユーザーのアイコン</p>
 					</div>
 				</div>
 			</header>
