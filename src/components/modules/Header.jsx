@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import projectIcon from '../../icons/projectIcon.png';
+import userIcon from '../../icons/userIcon.png';
 import logoutImage from '../../icons/logout.png';
 
 class Header extends React.Component{
@@ -26,7 +27,7 @@ class Header extends React.Component{
 				</div>
 				<div className='header-bottom'>
 					<div className='user-icon'>
-						<p>ユーザーのアイコン</p>
+						<img src={ userIcon }/>
 					</div>
 				</div>
 			</header>

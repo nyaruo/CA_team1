@@ -1,12 +1,13 @@
 .chart {
   height: 360px;
-  width: 640px;
-  margin: 10px 0 40px 40px;
-  padding: 20px;
-  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  width: 600px;
+  padding: 20px 30px 0 20px;
+  border-radius: 30px;
+  background-color: #fafafa;
+  /* -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75); */
 }
 
 .chartTitle {
-  margin-bottom: 20px;
+  margin: 0 3% 2%;
 }

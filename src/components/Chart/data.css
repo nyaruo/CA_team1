@@ -1,5 +1,12 @@
 .data {
-  width: 470px;
-  margin: 10px 0 40px 150px;
-  padding: 0 0 0 50px;
+  padding: 20px 10px 50px 20px;
+  border-radius: 30px;
+  background-color: #fafafa;
+  margin: 1% 10% 0 3%;
+}
+
+.apexcharts-legend.apexcharts-align-center.apx-legend-position-right{
+  padding-top: 3%;
+  font-size: 20px;
+  height: 50%;
 }

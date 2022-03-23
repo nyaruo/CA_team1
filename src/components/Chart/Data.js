@@ -61,18 +61,16 @@ export default function Data() {
   };
 
   return (
-    <div class="data">
-      <Card>
-        <CardHeader title="総学習時間" subheader="  時間" />
-        <ChartWrapperStyle dir="ltr">
-          <ReactApexChart
-            type="pie"
-            series={CHART_DATA}
-            options={chartOptions}
-            height={280}
-          />
-        </ChartWrapperStyle>
-      </Card>
+    <div className='data'>
+      <h3>総学習時間</h3>
+      <ChartWrapperStyle dir="ltr">
+        <ReactApexChart
+              type="pie"
+              series={CHART_DATA}
+              options={chartOptions}
+              height={280}
+        />
+      </ChartWrapperStyle>
     </div>
   );
 }

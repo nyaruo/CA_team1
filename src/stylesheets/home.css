@@ -1,15 +1,55 @@
 div.container-fluid {
-  width: 82%;
-  margin-left: 18%;
+  width: 80%;
+  height: 100vh;
+  margin-left: 20%;
 }
 
-.data {
-  margin: 10px 0 0 180px;
-  height: 800px;
+.pageTitle {
+  width: 83%;
+  height: 10%;
+  margin-top: 3%;
+  color: #282828;
+}
+
+.flexItems  {
+  height: 87%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .date {
-  /* margin: 80px 0 0 40px;
-  font-size: x-large;
-  font-weight: bold; */
+  color: #6B7275;
 }
+
+.greetingBlock {
+  background-color: #A5D3D4;
+  width: 650px;
+  height: 200px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 0 3%;
+}
+
+.greetingText {
+  margin-left: 7%;
+  color: #252525;
+  margin-top: 5%;
+}
+
+.greetingText h2 {
+  margin-bottom: 5%;
+}
+
+.greetingImg {
+  height: 80%;
+  align-self: center;
+  margin-right: 5%;
+}
+
+.greetingImg img {
+  width: 100%;
+  height: 100%;
+}
+
