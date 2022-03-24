@@ -21,7 +21,7 @@ class Header extends React.Component{
 							<Link to="/timer">Timer</Link>
 						</li>
 						<li>
-							<Link to="/menu2">Sign out</Link>
+							<Link to="/login">Sign out</Link>
 						</li>
 					</ul>
 				</div>

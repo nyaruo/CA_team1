@@ -1,4 +1,3 @@
-// import { callStaticConstructors } from "igniteui-react-core";
 import React, { useState } from "react";
 import { useStopwatch } from "react-timer-hook";
 

@@ -19,7 +19,6 @@ function Home() {
 
   return (
     <>
-      <Header />
       <Container fluid>
         <div className="pageTitle">
           <h1>Home</h1>

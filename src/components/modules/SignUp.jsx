@@ -13,7 +13,7 @@ class SignUpBox extends React.Component{
 			<section className='signup-window'>
 				<div className='box'>
 					<div className='service-icon'>
-						<h3>サービスのアイコン</h3>
+						<h3>Study Pro</h3>
 					</div>
 					<div className='input-group'>
 						{/* <label htmlFor='username'>ユーザーネーム</label> */}
