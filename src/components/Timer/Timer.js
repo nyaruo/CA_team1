@@ -12,11 +12,21 @@ function MyStopwatch() {
     if(action === "START"){
       changeAction("PAUSE");
       start();
-    }else{
+    }else if (action === "PAUSE"){
       changeAction("START");
       pause();
     }
+    else {
+      changeAction("PAUSE");
+      reset();
+    }
   };
+
+  const handleOnReset = () => {
+    changeAction("RESTART");
+    reset();
+    pause();
+  }
 
   // 分・秒の時間表示を常に2桁にする関数
   const formatTime = (time) => {
@@ -52,8 +62,8 @@ function MyStopwatch() {
         <p>{isRunning ? "Running" : "Not running"}</p>
       </div>
 
-      {/* <button onClick={reset} className="reset-btn">RESET</button> */}
       <button onClick={handleOnClick} className="start-btn">{action}</button>
+      <button onClick={handleOnReset} className="reset-btn">RESET</button>
       <button onClick={done} className="done-btn">DONE</button>
     </div>
   );
